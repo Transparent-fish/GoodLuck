@@ -1,0 +1,120 @@
+{
+    "title": "青创九",
+    "students": [
+        {
+            "id": "student-1",
+            "name": "曹磊",
+            "weight": 1.0
+        },
+        {
+            "id": "student-2",
+            "name": "陈秋谷",
+            "weight": 1.0
+        },
+        {
+            "id": "student-3",
+            "name": "曾彦彬",
+            "weight": 1.0
+        },
+        {
+            "id": "student-4",
+            "name": "邓博人",
+            "weight": 1.0
+        },
+        {
+            "id": "student-5",
+            "name": "方璟天",
+            "weight": 1.0
+        },
+        {
+            "id": "student-6",
+            "name": "黄逸",
+            "weight": 1.0
+        },
+        {
+            "id": "student-7",
+            "name": "金熙峻",
+            "weight": 1.0
+        },
+        {
+            "id": "student-8",
+            "name": "刘瑾璇",
+            "weight": 1.0
+        },
+        {
+            "id": "student-9",
+            "name": "李一叮",
+            "weight": 1.0
+        },
+        {
+            "id": "student-10",
+            "name": "李昀羲",
+            "weight": 1.0
+        },
+        {
+            "id": "student-11",
+            "name": "毛承俊",
+            "weight": 1.0
+        },
+        {
+            "id": "student-12",
+            "name": "潘春晓",
+            "weight": 1.0
+        },
+        {
+            "id": "student-13",
+            "name": "舒诗鉴",
+            "weight": 1.0
+        },
+        {
+            "id": "student-14",
+            "name": "陶瑞国",
+            "weight": 1.0
+        },
+        {
+            "id": "student-15",
+            "name": "周丞昊",
+            "weight": 1.0
+        },
+        {
+            "id": "student-16",
+            "name": "王瑞",
+            "weight": 1.0
+        },
+        {
+            "id": "student-17",
+            "name": "杨耀翔",
+            "weight": 1.0
+        },
+        {
+            "id": "student-18",
+            "name": "杨永逸",
+            "weight": 1.0
+        },
+        {
+            "id": "student-19",
+            "name": "岳正曦",
+            "weight": 1.0
+        },
+        {
+            "id": "student-20",
+            "name": "赵灵韵",
+            "weight": 1.0
+        },
+        {
+            "id": "student-21",
+            "name": "张熙晨",
+            "weight": 1.0
+        },
+        {
+            "id": "student-22",
+            "name": "周子传",
+            "weight": 1.0
+        },
+        {
+            "id": "student-23",
+            "name": "赵姿羽",
+            "weight": 1.0
+        }
+    ]
+}
