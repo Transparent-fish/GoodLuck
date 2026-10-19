@@ -79,9 +79,7 @@
             </label>
           </div>
           <div class="text-gray-500 text-xs sm:ml-auto">
-            可用人员: {{ availableStudents.length }} / {{currentGroupName ? students.filter(s => s.group ===
-              currentGroupName).length : students.length}}
-          </div>
+                     </div>
         </div>
         <p v-if="pickNotice" class="text-amber-600 text-sm font-medium px-1">{{ pickNotice }}</p>
       </div>
@@ -90,7 +88,7 @@
       <div v-if="students.length > 0" class="card p-4 sm:p-6 space-y-4">
         <div class="flex items-center justify-between">
           <div class="text-gray-500 text-sm">
-            人员列表 ({{currentGroupName ? students.filter(s => s.group === currentGroupName).length : students.length}})
+            人员列表
           </div>
           <button v-if="students.length > 10" @click="isExpanded = !isExpanded"
             class="text-blue-600 text-xs font-medium hover:text-blue-700">
@@ -109,7 +107,7 @@
           </div>
           <div v-if="!isExpanded && students.length > 10"
             class="flex items-center px-2 py-1 text-gray-400 text-xs italic">
-            ... 及其它 {{ students.length - 10 }} 位
+            ... 及其它 几 位
           </div>
         </div>
       </div>
@@ -138,7 +136,7 @@
                 {{ student.name }}
               </span>
             </div>
-            <div class="text-base sm:text-lg text-gray-500 mt-2 sm:mt-3">共 {{ currentPicks.length }} 人</div>
+            <div class="text-base sm:text-lg text-gray-500 mt-2 sm:mt-3">共  人</div>
           </div>
 
           <div class="flex justify-center pt-2">
@@ -173,20 +171,7 @@
         </div>
       </div>
 
-      <!-- 开发者信息 -->
-      <div class="text-center text-gray-400 mt-8 pb-4 text-sm">
-        <p>开发者：Xyber Nova &lt;xyber-nova@outlook.com</p>
-        <p class="mt-1">本程序以 <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"
-            class="hover:text-gray-600 underline">MPL-2.0</a> 开源于 
-            <a href="https://github.com/Mengzi-No-1-High-School-Unofficial/GoodLuck" target="_blank" class="hover:text-gray-600 underline">GitHub</a>
-        </p>
-
-        <p class="mt-2 text-xs text-gray-500">
-          给个 Star ⭐ 喵！
-          关注 <a href="https://github.com/xyber-nova" target="_blank" class="hover:text-gray-600 underline">Xyber Nova</a> 谢谢喵！
-        </p>
-      </div>
-
+     
     </div>
   </div>
 </template>
